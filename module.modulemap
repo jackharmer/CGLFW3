@@ -1,5 +1,6 @@
 module CGLFW3 [system] {
-    header "shim.h"
-    link "glfw"
-    export *
+  umbrella header "shim.h"
+  link "glfw"
+  link "GL"
+  export *
 }
