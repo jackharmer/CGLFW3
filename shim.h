@@ -1,6 +1,5 @@
-#include <sys/types.h>
+// Don't load OpenGL
+#define GLFW_INCLUDE_NONE
 
-#define GL_GLEXT_PROTOTYPES
-#include <GL/gl.h>
-
-#include <GLFW/glfw3.h>
+// find GLFW using include path
+#include "GLFW/glfw3.h"
